@@ -1,5 +1,3 @@
-MutationObserverPolyfill()
-
 var observer = new MutationObserver(function() {});
 observer.observe(document, {
   childList: true,

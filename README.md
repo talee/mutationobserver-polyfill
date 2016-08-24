@@ -4,18 +4,15 @@ See https://github.com/talee/mutationobserver-breaks-characterdata.
 
 ## Usage
 
-	var polyfill = require('mutationobserver-polyfill')
-
-	// Run it when browser exists
-	polyfill()
-
-Short version:
-
-	require('mutationobserver-polyfill')()
+	require('mutationobserver-polyfill')
 
 Uses latest release of MutationObserver polyfill from
 https://github.com/webcomponents/webcomponentsjs.
 
+If the environment isn't a browser, exists silently.
+
 ## Build
 
 	npm start
+
+Pulls latest MutationObserver polyfill from webcomponentsjs
