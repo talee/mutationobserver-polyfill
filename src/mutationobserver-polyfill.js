@@ -7,6 +7,6 @@
   var browser = parser(navigator.userAgent).browser
   if (browser.name == 'IE' && browser.version == '11.0') {
     window.MutationObserver = null
-    require('webcomponents.js/MutationObserver')
+    require('./../bower_components/webcomponentsjs/MutationObserver')
   }
 })()

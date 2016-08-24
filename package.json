@@ -4,7 +4,7 @@
   "description": "Forces use of polyfill in IE 11 since IE 11's native one causes XML data issues",
   "main": "release/mutationobserver-polyfill.min.js",
   "scripts": {
-    "start": "./build.sh",
+    "start": "bower install && ./node_modules/.bin/webpack src/mutationobserver-polyfill.js release/mutationobserver-polyfill.min.js --optimize-minimize",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -14,5 +14,8 @@
     "explorer",
     "xml"
   ],
-  "homepage": "https://github.com/talee/mutationobserver-polyfill"
+  "homepage": "https://github.com/talee/mutationobserver-polyfill",
+  "devDependencies": {
+    "webcomponentsjs": "^0.7.22"
+  }
 }
