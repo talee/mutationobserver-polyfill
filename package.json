@@ -1,6 +1,6 @@
 {
   "name": "mutationobserver-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Forces use of polyfill in IE 11 since IE 11's native one causes XML data issues",
   "main": "src/mutationobserver-polyfill.js",
   "scripts": {
