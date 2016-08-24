@@ -1,0 +1,18 @@
+{
+  "name": "mutationobserver-polyfill",
+  "description": "Forces use of polyfill in IE 11 since IE 11's native one causes XML data issues",
+  "main": "release/mutationobserver-polyfill.min.js",
+  "authors": [
+    "Thomas Lee <tleehoc@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mutation",
+    "observer",
+    "polyfill",
+    "internet",
+    "explorer",
+    "xml"
+  ],
+  "homepage": "https://github.com/talee/mutationobserver-polyfill"
+}
