@@ -3,9 +3,13 @@
   if (typeof navigator == 'undefined') {
     return
   }
-  var parser = require('ua-parser-js')
-  var browser = parser(navigator.userAgent).browser
-  if (browser.name == 'IE' && browser.version == '11.0') {
+  /**
+   * Regex from https://github.com/faisalman/ua-parser-js
+   */
+  var parts = navigator.userAgent.match(/(trident).+rv[:\s]([\w\.]+).+like\sgecko/i)
+  var browserName = parts[1]
+  var browserVersion = parts[2]
+  if (browserName == 'Trident' && browserVersion == '11.0') {
     window.MutationObserver = null
     require('./../bower_components/webcomponentsjs/MutationObserver')
   }

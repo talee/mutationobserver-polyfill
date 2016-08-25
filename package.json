@@ -25,9 +25,7 @@
     "url": "https://github.com/talee/mutationobserver-polyfill/issues"
   },
   "homepage": "https://github.com/talee/mutationobserver-polyfill#readme",
-  "dependencies": {
-    "ua-parser-js": "^0.7.10"
-  },
+  "dependencies": {},
   "devDependencies": {
     "webpack": "^1.13.2"
   }
