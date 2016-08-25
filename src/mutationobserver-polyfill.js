@@ -14,6 +14,6 @@
   var browserVersion = parts[2]
   if (browserName == 'Trident' && browserVersion == '11.0') {
     window.MutationObserver = null
-    require('./../bower_components/webcomponentsjs/MutationObserver')
   }
+  require('./../bower_components/webcomponentsjs/MutationObserver')
 })()
