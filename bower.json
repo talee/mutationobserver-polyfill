@@ -16,6 +16,6 @@
   ],
   "homepage": "https://github.com/talee/mutationobserver-polyfill",
   "devDependencies": {
-    "webcomponentsjs": "^0.7.22"
+    "webcomponentsjs": "git+ssh://git@github.com/tapasvimoturu/webcomponentsjs.git#master"
   }
 }

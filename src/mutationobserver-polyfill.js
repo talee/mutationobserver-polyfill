@@ -15,5 +15,6 @@
   if (browserName == 'Trident' && browserVersion == '11.0') {
     window.MutationObserver = null
   }
-  require('./../bower_components/webcomponentsjs/MutationObserver')
+  require('./../bower_components/webcomponentsjs/src/WeakMap/WeakMap')
+  require('./../bower_components/webcomponentsjs/src/MutationObserver/MutationObserver')
 })()
